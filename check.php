@@ -17,7 +17,9 @@ fwrite($fh, ''."".$ip ."\n");
 $keys = array(
 "Key",
 
-"kirbo",   
+"kirbo",
+   
+"sucks"   
 ); 
 $sub = $_GET["key"];
 if (in_array($sub,$keys,TRUE)) {
